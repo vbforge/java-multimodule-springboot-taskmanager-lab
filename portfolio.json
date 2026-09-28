@@ -1,11 +1,23 @@
-"repos": {
-  "java-multimodule-springboot-taskmanager-lab": {
-    "autoModules": true,
-    "exclude": ["common"],
-    "projects": [
-      { "name": "version1-inmemory", "path": "version1-inmemory", "description": "version1-inmemory", "topics": ["version1-inmemory"] },
-      { "name": "version2-h2", "path": "version2-h2", "description": "version2-h2", "topics": ["version2-h2"] },
-      { "name": "version3-mysql-docker", "path": "version3-mysql-docker", "description": "version3-mysql-docker", "topics": ["version3-mysql-docker"] }
-    ]
-  }
+{
+  "autoModules": true,
+  "projects": [
+    {
+      "name": "Version 1: In-memory",
+      "path": "version1-inmemory",
+      "description": "Simple in-memory storage. Perfect for understanding REST API basics.",
+      "topics": ["spring-boot", "rest-api", "in-memory"]
+    },
+    {
+      "name": "Version 2: H2 + JPA",
+      "path": "version2-h2",
+      "description": "H2 database with JPA. Database integration with automatic schema generation.",
+      "topics": ["h2", "jpa"]
+    },
+    {
+      "name": "Version 3: MySQL + Docker",
+      "path": "version3-mysql-docker",
+      "description": "MySQL with Docker. Three deployment scenarios: local, mixed, fully containerized.",
+      "topics": ["mysql", "docker"]
+    }
+  ]
 }
