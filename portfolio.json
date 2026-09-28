@@ -1,0 +1,11 @@
+"repos": {
+  "java-multimodule-springboot-taskmanager-lab": {
+    "autoModules": true,
+    "exclude": ["common"],
+    "projects": [
+      { "name": "version1-inmemory", "path": "version1-inmemory", "description": "version1-inmemory", "topics": ["version1-inmemory"] },
+      { "name": "version2-h2", "path": "version2-h2", "description": "version2-h2", "topics": ["version2-h2"] },
+      { "name": "version3-mysql-docker", "path": "version3-mysql-docker", "description": "version3-mysql-docker", "topics": ["version3-mysql-docker"] }
+    ]
+  }
+}
