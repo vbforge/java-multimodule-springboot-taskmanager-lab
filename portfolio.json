@@ -1,23 +1,15 @@
 {
   "autoModules": true,
+  "tags": ["spring-boot", "rest-api", "maven-multimodule", "docker", "mysql"],
   "projects": [
-    {
-      "name": "Version 1: In-memory",
-      "path": "version1-inmemory",
+    { "name": "Version 1: In-memory", "path": "version1-inmemory",
       "description": "Simple in-memory storage. Perfect for understanding REST API basics.",
-      "topics": ["spring-boot", "rest-api", "in-memory"]
-    },
-    {
-      "name": "Version 2: H2 + JPA",
-      "path": "version2-h2",
+      "tags": ["rest-api", "in-memory"] },
+    { "name": "Version 2: H2 + JPA", "path": "version2-h2",
       "description": "H2 database with JPA. Database integration with automatic schema generation.",
-      "topics": ["h2", "jpa"]
-    },
-    {
-      "name": "Version 3: MySQL + Docker",
-      "path": "version3-mysql-docker",
+      "tags": ["h2", "jpa"] },
+    { "name": "Version 3: MySQL + Docker", "path": "version3-mysql-docker",
       "description": "MySQL with Docker. Three deployment scenarios: local, mixed, fully containerized.",
-      "topics": ["mysql", "docker"]
-    }
+      "tags": ["mysql", "docker"] }
   ]
 }
